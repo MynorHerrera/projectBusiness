@@ -1,0 +1,93 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Header*/
+.cabecera{
+	display: flex;
+	background: white;
+	width: 100%;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-size: 60%;
+}
+
+/*menu*/
+#menu{
+	background: gray;
+	padding: 9px;
+	font-size: 25px;
+	color: white;
+	border-top: 3px solid black;
+	text-align: right;
+	position: sticky;
+	top: 0;
+}
+
+#menu h1{
+	text-align: center;
+	font-size: 100%;
+}
+
+/*upload*/
+.upload{
+	height: 70px;
+	width: 60%;
+	margin: 30px 20% 30px 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content-file{
+	border: 2px solid lightblue;
+	padding: 1%;
+	width: 100%;
+}
+
+.fecha {
+    width: 35%;
+    height: auto;
+    font-size: 18px;
+    text-align: center;
+}
+
+.btn{
+	margin: 4px 40% 0 40%;
+	text-align: center;
+	width: 25%;
+	height: 30px;
+	background: #3F51B5;
+	font-size: 14px;
+	color: white;
+	border-radius: 5px;
+}
+
+/*Pie*/
+.pie{
+	background: gray;
+	width: 100%;
+	height: 40px;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	border-top: 3px solid black;
+	padding: 5px 0 35px 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.pie a{
+	text-decoration: none;
+	color: white;
+}
+
+.pie small{
+	display: block;
+	padding: 1px;
+	font-size: 80%;
+}
+

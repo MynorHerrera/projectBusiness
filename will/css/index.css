@@ -1,0 +1,130 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*Header*/
+.cabecera{
+	display: flex;
+	background: white;
+	width: 100%;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	color: black;
+	font-size: 60%;
+}
+
+/*menu*/
+#check{
+	display: none;
+}
+
+#menu{
+	background: gray;
+	padding: 9px;
+	font-size: 25px;
+	color: white;
+	border-top: 3px solid black;
+	text-align: right;
+	position: sticky;
+	top: 0;
+}
+
+.icon-menu{
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.icon-menu:hover{
+	cursor: pointer;
+	transition: all 500ms;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.icon-cancel{
+	padding: 10px;
+	border-radius: 8px;
+}
+
+.icon-cancel:hover{
+	cursor: pointer;
+	transition: all 500ms;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+/*Navbar*/
+.navbar{
+	font-size: 15px;
+	font-family: sans-serif;
+	position: sticky;
+	top: 47px;
+}
+
+.navbar ul{
+	background: gray;
+	position: absolute;
+	width: 75%;
+	margin-left: -80%;
+	transition: all 500ms;
+}
+
+.navbar ul li{
+	list-style: none;
+}
+
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding: 20px;
+	border-top: 1px solid black;
+}
+
+.navbar ul li a:hover{
+	background: rgba(255, 255, 255, 0.6);
+	border-bottom: 5px solid gray;
+	transition: all 300ms;
+	color: black;
+}
+
+.information{
+	width: 100%;
+	height: 450px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: lightgray;
+}
+
+.logo{
+	width: 300px;
+    height:300px;
+    border-radius:80%;
+}
+
+/*Pie*/
+.pie{
+	background: gray;
+	width: 100%;
+	height: 40px;
+	font-family: sans-serif;
+	color: white;
+	text-align: center;
+	border-top: 3px solid black;
+	padding: 5px 0 35px 0;
+	position: absolute;
+	z-index: -1;
+}
+
+.pie a{
+	text-decoration: none;
+	color: white;
+}
+
+.pie small{
+	display: block;
+	padding: 1px;
+	font-size: 80%;
+}
+
